@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-  <a href="https://github.com/lunareixx/SukyBot"><img src="./data/images/Suky_Title.png"></a>
+  <a href="https://github.com/lunareixx/sukybot"><img src="./data/images/Suky_Title.png"></a>
   <br>
   Suky
   <br>
@@ -19,7 +19,7 @@
     <img src="https://img.shields.io/badge/discord.js-v12.3.1-blue.svg?logo=npm" alt="shield.png">
   </a>
 
-  <a href="https://github.com/lunareixx/SukyBot/blob/develop/LICENSE">
+  <a href="https://github.com/lunareixx/sukybot/blob/develop/LICENSE">
     <img src="https://img.shields.io/badge/license-GNU%20GPL%20v3-green" alt="shield.png">
   </a>
 
@@ -99,4 +99,4 @@ Released under the [GNU GPL v3](https://www.gnu.org/licenses/gpl-3.0.en.html) li
 ## Kredit
 
 * **Lunareixx** - *Owner of this Bot*
-* **Sebastian Battle** - *Code Base Repository* - [github](https://github.com/sabattle)
+* **Lunareixx** - *Code Base Repository* - [github](https://github.com/sabattle)

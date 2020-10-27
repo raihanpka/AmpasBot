@@ -26,7 +26,7 @@ module.exports = class BlastCommand extends Command {
       ) {
         const embed = new MessageEmbed()
           .setTitle('Suky System Message')
-          .setThumbnail('https://raw.githubusercontent.com/sabattle/SukyBot/develop/data/images/Suky.png')
+          .setThumbnail('https://raw.githubusercontent.com/lunareixx/sukybot/master/data/images/Suky.png')
           .setDescription(msg)
           .setTimestamp()
           .setColor(message.guild.me.displayHexColor);

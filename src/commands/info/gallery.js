@@ -2,11 +2,11 @@ const Command = require('../Command.js');
 const ReactionMenu = require('../ReactionMenu.js');
 const { MessageEmbed } = require('discord.js');
 const art = [
-  'https://raw.githubusercontent.com/sabattle/SukyBot/develop/data/images/Suky_Full_Signature.png',
-  'https://raw.githubusercontent.com/sabattle/SukyBot/develop/data/images/Suky.png',
-  'https://raw.githubusercontent.com/sabattle/SukyBot/develop/data/images/Suky_WIP.png',
-  'https://raw.githubusercontent.com/sabattle/SukyBot/develop/data/images/Suky_WIP_2.png',
-  'https://raw.githubusercontent.com/sabattle/SukyBot/develop/data/images/Suky_WIP_3.png'
+  'https://raw.githubusercontent.com/lunareixx/sukybot/master/data/images/Suky_Full_Signature.png',
+  'https://raw.githubusercontent.com/lunareixx/sukybot/master/data/images/Suky.png',
+  'https://raw.githubusercontent.com/lunareixx/sukybot/master/data/images/Suky_WIP.png',
+  'https://raw.githubusercontent.com/lunareixx/sukybot/master/data/images/Suky_WIP_2.png',
+  'https://raw.githubusercontent.com/lunareixx/sukybot/master/data/images/Suky_WIP_3.png'
 ];
 
 module.exports = class GalleryCommand extends Command {
@@ -24,7 +24,7 @@ module.exports = class GalleryCommand extends Command {
     let n = 0;
     const embed = new MessageEmbed()
       .setTitle('Art Gallery')
-      .setDescription('All art courtesy of **CommradeFido#5286**.')
+      .setDescription('All of Suky Profile & Art.')
       .setImage(art[n])
       .setFooter(
         'Expires after three minutes.\n' + message.member.displayName,  

@@ -15,14 +15,14 @@ module.exports = class InviteMeCommand extends Command {
   run(message) {
     const embed = new MessageEmbed()
       .setTitle('Invite Me')
-      .setThumbnail('https://raw.githubusercontent.com/sabattle/SukyBot/develop/data/images/Suky.png')
+      .setThumbnail('https://raw.githubusercontent.com/lunareixx/sukybot/master/data/images/Suky.png')
       .setDescription(oneLine`
         Click [here](https://discordapp.com/oauth2/authorize?client_id=416451977380364288&scope=bot&permissions=403008599)
         to invite me to your server!
       `)
       .addField('Other Links', 
-        '**[Support Server](https://discord.gg/pnYVdut) | ' +
-        '[Repository](https://github.com/sabattle/SukyBot)**'
+        '**[Support Server](https://discord.gg/jVgKDC4) | ' +
+        '[Repository](https://github.com/lunareixx/sukybot)**'
       )
       .setFooter(message.member.displayName,  message.author.displayAvatarURL({ dynamic: true }))
       .setTimestamp()

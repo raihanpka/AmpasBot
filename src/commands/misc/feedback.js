@@ -36,10 +36,10 @@ module.exports = class FeedbackCommand extends Command {
     if (feedback.length > 1024) feedback = feedback.slice(0, 1021) + '...';
     const embed = new MessageEmbed()
       .setTitle('Feedback')
-      .setThumbnail('https://raw.githubusercontent.com/sabattle/SukyBot/develop/data/images/Suky.png')
+      .setThumbnail('https://raw.githubusercontent.com/lunareixx/sukybot/master/data/images/Suky.png')
       .setDescription(oneLine`
         Successfully sent feedback!
-        Please join the [Suky Support Server](https://discord.gg/pnYVdut) to further discuss your feedback.
+        Please join the [Suky Support Server](https://discord.gg/jVgKDC4) to further discuss your feedback.
       `) 
       .addField('Member', message.member, true)
       .addField('Message', feedback)

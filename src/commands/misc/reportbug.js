@@ -39,11 +39,11 @@ module.exports = class ReportBugCommand extends Command {
     if (report.length > 1024) report = report.slice(0, 1021) + '...';
     const embed = new MessageEmbed()
       .setTitle('Bug Report')
-      .setThumbnail('https://raw.githubusercontent.com/sabattle/SukyBot/develop/data/images/Suky.png')
+      .setThumbnail('https://raw.githubusercontent.com/lunareixx/sukybot/master/data/images/Suky.png')
       .setDescription(oneLine`
         Successfully sent bug report!
-        Please join the [Suky Support Server](https://discord.gg/pnYVdut) to further discuss your issue.
-        Additionally, feel free to submit an issue on [GitHub](https://github.com/sabattle/SukyBot/issues).
+        Please join the [Suky Support Server](https://discord.gg/jVgKDC4) to further discuss your issue.
+        Additionally, feel free to submit an issue on [GitHub](https://github.com/lunareixx/sukybot/issues).
       `) 
       .addField('Member', message.member, true)
       .addField('Message', report)
