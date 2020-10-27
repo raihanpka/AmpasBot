@@ -82,7 +82,7 @@ API lainnya bisa didapatkan dari Link dibawah ini :
   * [TheCatAPI](https://thecatapi.com/)
   * [Google APIs](https://console.developers.google.com/apis/)
 
-Setelah `config.json` selesai diatur, aktifkan `Privileged Intents` di Discord [developer portal](https://discordapp.com/developers/applications/). Bisa ditemukan di bawah kolom "Bot" , dan ada dua opsi yang harus dinyalakan. Info tentang Gateway Intents, selebihnya [disini](https://discordjs.guide/popular-topics/intents.html#the-intents-bit-field-wrapper) link.
+Setelah `config.json` selesai diatur, aktifkan `Privileged Intents` di Discord [developer portal](https://discordapp.com/developers/applications/). Bisa ditemukan di bawah kolom "Bot" , dan ada dua opsi yang harus dinyalakan. Info mengenai Gateway Intents, selebihnya [disini](https://discordjs.guide/popular-topics/intents.html#the-intents-bit-field-wrapper).
 
 Setelah selesai, luncurkan `node app.js` atau `nodemon app.js`. Di Linux, bisa gunakan `start.sh` script.
 
