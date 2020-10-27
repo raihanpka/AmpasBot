@@ -99,4 +99,4 @@ Released under the [GNU GPL v3](https://www.gnu.org/licenses/gpl-3.0.en.html) li
 ## Kredit
 
 * **Lunareixx** - *Owner of this Bot*
-* **Lunareixx** - *Code Base Repository* - [github](https://github.com/sabattle)
+* **Sebastian Battle** - *Code Base Repository* - [Github](https://github.com/sabattle)
