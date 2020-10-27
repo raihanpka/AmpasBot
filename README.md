@@ -63,10 +63,13 @@ Tentunya kamu butuh [nodejs](https://nodejs.org/en/) yang sudah diinstal.
 
 ## Penyetelan
 
-Setting dulu `config.json` nya. File nya harus terlihat seperti ini:
+Buat terlebih dahulu file `.env` dengan format seperti dibawah ini :
+```
+TOKEN=token_bot_kamu_disini
+```
+Setelah itu setting dulu `config.json` nya, atau tinggal rename aja dari `config.json.contoh`. File nya harus terlihat seperti ini:
 ```
 {
-  "token": "token_bot_kamu_disini",
   "ownerId": "ID_kamu_disini",
   "bugReportChannelId": "bug_report_channel_ID_disini",
   "feedbackChannelId": "feedback_channel_ID_disini",
