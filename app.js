@@ -2,6 +2,7 @@ const config = require('./config.json');
 const Client = require('./src/Client.js');
 const { Intents } = require('discord.js');
 const keepAlive = require('./server');
+require('dotenv').config();
 
 global.__basedir = __dirname;
 
@@ -22,7 +23,7 @@ function init() {
   client.loadEvents('./src/events');
   client.loadCommands('./src/commands');
   client.loadTopics('./data/trivia');
-  client.login(client.token);
+  client.login(process.env.TOKEN);
 }
 
 init();

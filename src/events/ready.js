@@ -1,8 +1,8 @@
 module.exports = async (client) => {
   
   const activities = [
-    { name: 'your commands', type: 'LISTENING' }, 
-    { name: '@Suky', type: 'LISTENING' }
+    { name: 's!︱Am i a Human for u?', type: 'PLAYING' }, 
+    { name: 's!︱Love u all!! (♡ω♡ ) ~♪', type: 'PLAYING' }
   ];
 
   // Update presence
