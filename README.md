@@ -53,7 +53,7 @@ Kenalin Suky, si Executive dari Server Lunarix Hub! Dia bisa ngelakuin apa aja l
 
 Clone repo ini dulu.
 ```
-git clone https://github.com/lunareixx/SukyBot.git
+git clone https://github.com/lunareixx/sukybot.git
 ```
 Setelah cloning, jalankan
 ```
