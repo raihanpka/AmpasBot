@@ -31,12 +31,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://lunareixx@github.com/lunareixx/SukyBot.git"
+    "url": "git+https://lunareixx@github.com/lunareixx/sukybot.git"
   },
   "author": "Lunareix",
   "license": "GPL-3.0",
   "bugs": {
-    "url": "https://github.com/lunareixx/SukyBot/issues"
+    "url": "https://github.com/lunareixx/sukybot/issues"
   },
-  "homepage": "https://github.com/lunareixx/SukyBot#readme"
+  "homepage": "https://github.com/lunareixx/sukybot#readme"
 }

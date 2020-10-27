@@ -14,11 +14,10 @@ module.exports = class SupportServerCommand extends Command {
   run(message) {
     const embed = new MessageEmbed()
       .setTitle('Support Server')
-      .setThumbnail('https://raw.githubusercontent.com/sabattle/SukyBot/develop/data/images/Suky.png')
-      .setDescription('Click [here](https://discord.gg/pnYVdut) to join the Suky Support Server!')
+      .setThumbnail('https://raw.githubusercontent.com/lunareixx/sukybot/master/data/images/Suky.png')
+      .setDescription('Click [here](https://discord.gg/jVgKDC4) to join the Suky Support Server!')
       .addField('Other Links', 
-        '**[Invite Me](https://discordapp.com/oauth2/authorize?client_id=416451977380364288&scope=bot&permissions=403008599) | ' +
-        '[Repository](https://github.com/sabattle/SukyBot)**'
+        '**[Repository](https://github.com/lunareixx/sukybot)**'
       )
       .setFooter(message.member.displayName,  message.author.displayAvatarURL({ dynamic: true }))
       .setTimestamp()
