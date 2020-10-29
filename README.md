@@ -6,7 +6,7 @@
   <br>
 </h1>
 
-<h3 align=center>Multitalent Bot written in Javascript with Indonesian personalization as the main language</h3>
+<h3 align=center>Multitalent bot written in Javascript with Indonesian personalization as the main language</h3>
 
 
 <div align=center>
