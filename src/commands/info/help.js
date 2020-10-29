@@ -108,8 +108,7 @@ module.exports = class HelpCommand extends Command {
 
       embed.addField(
         '**Links**',
-        '**[Server](https://discord.gg/) | ' +
-        '[Repository](https://github.com/lunareixx/AmpasBot)**'
+        '**[Repository](https://github.com/lunareixx/AmpasBot)**'
       );
         
     }
