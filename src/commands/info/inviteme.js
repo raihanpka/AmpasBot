@@ -8,21 +8,20 @@ module.exports = class InviteMeCommand extends Command {
       name: 'inviteme',
       aliases: ['invite', 'invme', 'im'],
       usage: 'inviteme',
-      description: 'Generates a link you can use to invite Suky to your own server.',
+      description: 'Generates a link you can use to invite Si Ampas to your own server.',
       type: client.types.INFO
     });
   }
   run(message) {
     const embed = new MessageEmbed()
       .setTitle('Invite Me')
-      .setThumbnail('https://raw.githubusercontent.com/lunareixx/sukybot/master/data/images/Suky.png')
+      .setThumbnail('https://raw.githubusercontent.com/lunareixx/AmpasBot/master/data/images/SiAmpas.png')
       .setDescription(oneLine`
-        Click [here](https://discordapp.com/oauth2/authorize?client_id=416451977380364288&scope=bot&permissions=403008599)
+        Click [here](https://discord.com/api/oauth2/authorize?client_id=757831863401185351&permissions=8&scope=bot)
         to invite me to your server!
       `)
       .addField('Other Links', 
-        '**[Support Server](https://discord.gg/jVgKDC4) | ' +
-        '[Repository](https://github.com/lunareixx/sukybot)**'
+        '**[Repository](https://github.com/lunareixx/AmpasBot)**'
       )
       .setFooter(message.member.displayName,  message.author.displayAvatarURL({ dynamic: true }))
       .setTimestamp()

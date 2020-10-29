@@ -8,21 +8,18 @@ module.exports = class GitHubCommand extends Command {
       name: 'github',
       aliases: ['gh', 'repo'],
       usage: 'github',
-      description: 'Displays the link to Suky\'s GitHub repository.',
+      description: 'Displays the link to Si Ampas\'s GitHub repository.',
       type: client.types.INFO
     });
   }
   run(message) {
     const embed = new MessageEmbed()
       .setTitle('GitHub Link')
-      .setThumbnail('https://raw.githubusercontent.com/lunareixx/sukybot/master/data/images/Suky.png')
+      .setThumbnail('https://raw.githubusercontent.com/lunareixx/AmpasBot/master/data/images/SiAmpas.png')
       .setDescription(oneLine`
-        Click [here](https://github.com/lunareixx/sukybot) to to visit GitHub repository!
+        Click [here](https://github.com/lunareixx/AmpasBot) to to visit GitHub repository!
         Feel free to comment about issues or suggestions!
       `)
-      .addField('Other Links',
-        '**[Support Server](https://discord.gg/jVgKDC4)**'
-      )
       .setFooter(message.member.displayName,  message.author.displayAvatarURL({ dynamic: true }))
       .setTimestamp()
       .setColor(message.guild.me.displayHexColor);

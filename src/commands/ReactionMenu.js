@@ -1,7 +1,7 @@
 const { MessageEmbed } = require('discord.js');
 
 /**
- * Suky's Reaction Menu class
+ * Si Ampas's Reaction Menu class
  */
 module.exports = class ReactionMenu {
 
@@ -25,7 +25,7 @@ module.exports = class ReactionMenu {
   }, timeout = 120000) {
 
     /**
-     * The Suky Client
+     * The Si Ampas Client
      * @type {Client}
      */
     this.client = client;

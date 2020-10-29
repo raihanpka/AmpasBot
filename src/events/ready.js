@@ -116,9 +116,9 @@ module.exports = async (client) => {
     client.db.settings.deleteGuild.run(guild.guild_id);
     client.db.users.deleteGuild.run(guild.guild_id);
 
-    client.logger.info(`Suky has left ${guild.guild_name}`);
+    client.logger.info(`Si Ampas has left ${guild.guild_name}`);
   }
 
-  client.logger.info('Suky is now online');
-  client.logger.info(`Suky is running on ${client.guilds.cache.size} server(s)`);
+  client.logger.info('Si Ampas is now online');
+  client.logger.info(`Si Ampas is running on ${client.guilds.cache.size} server(s)`);
 };

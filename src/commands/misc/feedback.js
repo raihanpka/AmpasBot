@@ -8,9 +8,9 @@ module.exports = class FeedbackCommand extends Command {
       name: 'feedback',
       aliases: ['fb'],
       usage: 'feedback <message>',
-      description: 'Sends a message to the Suky Support Server\'s feedback channel.',
+      description: 'Sends a message to the Si Ampas Server\'s feedback channel.',
       type: client.types.MISC,
-      examples: ['feedback We love Suky!']
+      examples: ['feedback We love Si Ampas!']
     });
   }
   run(message, args) {
@@ -36,11 +36,9 @@ module.exports = class FeedbackCommand extends Command {
     if (feedback.length > 1024) feedback = feedback.slice(0, 1021) + '...';
     const embed = new MessageEmbed()
       .setTitle('Feedback')
-      .setThumbnail('https://raw.githubusercontent.com/lunareixx/sukybot/master/data/images/Suky.png')
+      .setThumbnail('https://raw.githubusercontent.com/lunareixx/AmpasBot/master/data/images/SiAmpas.png')
       .setDescription(oneLine`
-        Successfully sent feedback!
-        Please join the [Suky Support Server](https://discord.gg/jVgKDC4) to further discuss your feedback.
-      `) 
+        Successfully sent feedback!`) 
       .addField('Member', message.member, true)
       .addField('Message', feedback)
       .setFooter(message.member.displayName,  message.author.displayAvatarURL({ dynamic: true }))

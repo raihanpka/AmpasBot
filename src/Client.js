@@ -5,7 +5,7 @@ const AsciiTable = require('ascii-table');
 const { fail } = require('./utils/emojis.json');
 
 /**
- * Suky's custom client
+ * Si Ampas's custom client
  * @extends Discord.Client
  */
 class Client extends Discord.Client {
@@ -75,25 +75,25 @@ class Client extends Discord.Client {
     this.apiKeys = config.apiKeys;
 
     /** 
-     * Suky's owner ID
+     * Si Ampas's owner ID
      * @type {string}
      */
     this.ownerId = config.ownerId;
 
     /** 
-     * Suky's bug report channel ID
+     * Si Ampas's bug report channel ID
      * @type {string}
      */
     this.bugReportChannelId = config.bugReportChannelId;
 
     /** 
-     * Suky's feedback channel ID
+     * Si Ampas's feedback channel ID
      * @type {string}
      */
     this.feedbackChannelId = config.feedbackChannelId;
 
     /** 
-     * Suky's server log channel ID
+     * Si Ampas's server log channel ID
      * @type {string}
      */
     this.serverLogId = config.serverLogId;

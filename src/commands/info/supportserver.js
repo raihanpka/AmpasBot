@@ -7,17 +7,17 @@ module.exports = class SupportServerCommand extends Command {
       name: 'supportserver',
       aliases: ['support', 'ss'],
       usage: 'supportserver',
-      description: 'Displays the invite link to Suky\'s Discord Support Server.',
+      description: 'Displays the invite link to Si Ampas\'s Discord Server.',
       type: client.types.INFO
     });
   }
   run(message) {
     const embed = new MessageEmbed()
-      .setTitle('Support Server')
-      .setThumbnail('https://raw.githubusercontent.com/lunareixx/sukybot/master/data/images/Suky.png')
-      .setDescription('Click [here](https://discord.gg/jVgKDC4) to join the Suky Support Server!')
+      .setTitle('Server')
+      .setThumbnail('https://raw.githubusercontent.com/lunareixx/AmpasBot/master/data/images/SiAmpas.png')
+      .setDescription('Click [here](https://discord.gg/) to join the Si Ampas Server!')
       .addField('Other Links', 
-        '**[Repository](https://github.com/lunareixx/sukybot)**'
+        '**[Repository](https://github.com/lunareixx/AmpasBot)**'
       )
       .setFooter(message.member.displayName,  message.author.displayAvatarURL({ dynamic: true }))
       .setTimestamp()

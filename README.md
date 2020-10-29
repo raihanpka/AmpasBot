@@ -1,12 +1,12 @@
 <h1 align="center">
   <br>
-  <a href="https://github.com/lunareixx/sukybot"><img src="./data/images/Suky_Title.png"></a>
+  <a href="https://github.com/lunareixx/AmpasBot"><img src="./data/images/SiAmpas_Title.png"></a>
   <br>
   Astesia
   <br>
 </h1>
 
-<h3 align=center>Multitalent bot written in Javascript with Indonesian personalization as the main language</h3>
+<h3 align=center>God Servantnya Server ampas.exe</h3>
 
 
 <div align=center>
@@ -15,7 +15,7 @@
     <img src="https://img.shields.io/badge/discord.js-v12.3.1-blue.svg?logo=npm" alt="shield.png">
   </a>
 
-  <a href="https://github.com/lunareixx/sukybot/blob/develop/LICENSE">
+  <a href="https://github.com/lunareixx/AmpasBot/blob/master/LICENSE">
     <img src="https://img.shields.io/badge/license-GNU%20GPL%20v3-green" alt="shield.png">
   </a>
 
@@ -37,9 +37,7 @@
 
 ## About
 
-Astesia, multitalent bot written in Javascript and using base code from [Github Open Source Code](https://github.com/sabattle/calypsobot)
-
-**FYI** : Astesia is name of character comes from a mobile game "[Arknights](https://www.arknights.global/)"
+Si Ampas, God Servantnya Server ampas.exe !
 
 ## Features
 
@@ -47,9 +45,11 @@ Astesia, multitalent bot written in Javascript and using base code from [Github 
 
 ## Installation
 
+** Buat yang mau coba host botnya sendiri **
+
 Clone repo ini dulu
 ```
-git clone https://github.com/lunareixx/sukybot.git
+git clone https://github.com/lunareixx/AmpasBot.git
 ```
 Setelah cloning, jalankan
 ```
@@ -88,16 +88,11 @@ Setelah selesai, luncurkan `node app.js` atau `nodemon app.js`. Di Linux, bisa g
 
 Ganti Emoji kamu dengan ID sesuai emojinya yang kamu punya di `emojis.json` agar emoji nya muncul. Atau bisa dimodifikasi sesukamu :v
 
-## To Do
-
-* Add "Indonesian" Language
-* Eksperimen command music wkwkwkwk
-
 ## License
 
-Released under the [GNU GPL v3](https://www.gnu.org/licenses/gpl-3.0.en.html) license.
+Dirilis dibawah lisensi [GNU GPL v3](https://www.gnu.org/licenses/gpl-3.0.en.html)
 
 ## Credits
 
 Special thanks to :
-* **Sebastian Battle** - *Base Code Repository* - [Github](https://github.com/sabattle/calypsobot)
+* **Sebastian Battle** - *Base Code* - [Github](https://github.com/sabattle/calypsobot)

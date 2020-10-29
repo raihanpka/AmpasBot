@@ -10,7 +10,7 @@ module.exports = class BotInfoCommand extends Command {
       name: 'botinfo',
       aliases: ['bot', 'bi'],
       usage: 'botinfo',
-      description: 'Fetches Suky\'s bot information.',
+      description: 'Fetches Si Ampas\'s bot information.',
       type: client.types.INFO
     });
   }
@@ -24,9 +24,9 @@ module.exports = class BotInfoCommand extends Command {
       Database    :: SQLite
     `;
     const embed = new MessageEmbed()
-      .setTitle('Suky\'s Bot Information')
+      .setTitle('Si Ampas\'s Bot Information')
       .setDescription(oneLine`
-        Suky is a Multipurpose Bot bulit with **discord.js** . This bot uses base code from '**[here](https://github.com/sabattle/CalypsoBot)**'
+        Gue, Si Ampas! God Servantnya Server ampas.exe'
       `)
       .addField('Prefix', `\`${prefix}\``, true)
       .addField('Client ID', `\`${message.client.user.id}\``, true)
@@ -34,10 +34,9 @@ module.exports = class BotInfoCommand extends Command {
       .addField('Tech', `\`\`\`asciidoc\n${tech}\`\`\``)
       .addField(
         'Links', 
-        '**[Support Server](https://discord.gg/jVgKDC4) | ' +
-        '[Repository](https://github.com/lunareixx/sukybot)**'
+        '**[Repository](https://github.com/lunareixx/AmpasBot)**'
       )
-      .setImage('https://raw.githubusercontent.com/lunareixx/sukybot/master/data/images/Suky_Title.png')
+      .setImage('https://raw.githubusercontent.com/lunareixx/AmpasBot/master/data/images/SiAmpas_Title.png')
       .setFooter(message.member.displayName,  message.author.displayAvatarURL({ dynamic: true }))
       .setTimestamp()
       .setColor(message.guild.me.displayHexColor);

@@ -37,7 +37,7 @@ module.exports = (client, message) => {
           // Update points with messagePoints value
           if (pointTracking)
             client.db.users.updatePoints.run({ points: messagePoints }, message.author.id, message.guild.id);
-          return; // Return early so Suky doesn't respond
+          return; // Return early so Si Ampas doesn't respond
         }
       }
 
@@ -57,16 +57,16 @@ module.exports = (client, message) => {
       !modChannelIds.includes(message.channel.id)
     ) {
       const embed = new MessageEmbed()
-        .setTitle('Hi, I\'m Suky. Need help?')
-        .setThumbnail('https://raw.githubusercontent.com/lunareixx/sukybot/master/data/images/Suky.png')
+        .setTitle('Hi, I\'m Si Ampas. Need help?')
+        .setThumbnail('https://raw.githubusercontent.com/lunareixx/AmpasBot/master/data/images/SiAmpas.png')
         .setDescription(`You can see everything I can do by using the \`${prefix}help\` command.`)
         .addField('Invite Me', oneLine`
           You can add me to your server by clicking 
-          [here](https://discordapp.com/oauth2/authorize?client_id=416451977380364288&scope=bot&permissions=403008599)!
+          [here](https://discord.com/api/oauth2/authorize?client_id=757831863401185351&permissions=8&scope=bot)!
         `)
         .addField('Support', oneLine`
           If you have questions, suggestions, or found a bug, please join the 
-          [Suky Support Server](https://discord.gg/jVgKDC4)!
+          [Si Ampas Server](https://discord.gg/)!
         `)
         .setFooter('DM Nettles#8880 to speak directly with the developer!')
         .setColor(message.guild.me.displayHexColor);
