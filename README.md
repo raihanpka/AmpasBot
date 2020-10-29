@@ -2,11 +2,11 @@
   <br>
   <a href="https://github.com/lunareixx/sukybot"><img src="./data/images/Suky_Title.png"></a>
   <br>
-  Suky
+  Astesia
   <br>
 </h1>
 
-<h3 align=center>Bot Multitalenta !</h3>
+<h3 align=center>Multitalent Bot written in Javascript with Indonesian personalization as the main language</h3>
 
 
 <div align=center>
@@ -42,7 +42,7 @@
 ## About
 
 
-Kenalin Suky, Bot Multitalenta ! Dia bisa ngelakuin banyak hal!
+Astesia, Bot Multitalenta ! Dia bisa ngelakuin banyak hal!
 
 
 ## Kemampuannya
