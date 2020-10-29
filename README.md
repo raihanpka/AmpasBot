@@ -22,17 +22,17 @@
 </div>
 
 <p align="center">
-  <a href="#tentang-dia">Tentang Dia</a>
+  <a href="#tentang-dia">About</a>
   •
-  <a href="#kemampuannya">Fitur</a>
+  <a href="#kemampuannya">Features</a>
   •
-  <a href="#instalasi">Instalasi</a>
+  <a href="#instalasi">Installation</a>
   •
-  <a href="#penyetelan">Penyetelan</a>
+  <a href="#penyetelan">Setting Up</a>
   •
-  <a href="#lisensi">Lisensi</a>
+  <a href="#lisensi">License</a>
   •
-  <a href="#kredit">Kredit</a>
+  <a href="#credits">Credits</a>
 </p>
 
 ## Tentang Dia
@@ -97,7 +97,7 @@ Ganti Emoji kamu dengan ID sesuai emojinya yang kamu punya di `emojis.json` agar
 
 Released under the [GNU GPL v3](https://www.gnu.org/licenses/gpl-3.0.en.html) license.
 
-## Kredit
+## Credits
 
 Special thanks to :
 * **Sebastian Battle** - *Base Code Repository* - [Github](https://github.com/sabattle/calypsobot)
