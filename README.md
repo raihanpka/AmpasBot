@@ -6,7 +6,7 @@
   <br>
 </h1>
 
-<h3 align=center>Executive nya Server Lunarix Hub !</h3>
+<h3 align=center>Bot Multitalenta !</h3>
 
 
 <div align=center>
@@ -42,7 +42,7 @@
 ## About
 
 
-Kenalin Suky, si Executive dari Server Lunarix Hub! Dia bisa ngelakuin apa aja loh!
+Kenalin Suky, Bot Multitalenta ! Dia bisa ngelakuin banyak hal!
 
 
 ## Kemampuannya
@@ -51,7 +51,7 @@ Kenalin Suky, si Executive dari Server Lunarix Hub! Dia bisa ngelakuin apa aja l
 
 ## Instalasi
 
-Clone repo ini dulu.
+Clone repo ini dulu
 ```
 git clone https://github.com/lunareixx/sukybot.git
 ```
@@ -63,13 +63,10 @@ Tentunya kamu butuh [nodejs](https://nodejs.org/en/) yang sudah diinstal.
 
 ## Penyetelan
 
-Buat terlebih dahulu file `.env` dengan format seperti dibawah ini :
-```
-TOKEN=token_bot_kamu_disini
-```
-Setelah itu setting dulu `config.json` nya, atau tinggal rename aja dari `config.json.contoh`. File nya harus terlihat seperti ini:
+Setting dulu `config.json` nya, atau tinggal rename aja dari `config.json.contoh`. File nya harus terlihat seperti ini:
 ```
 {
+  "token": "token_kamu_disini"
   "ownerId": "ID_kamu_disini",
   "bugReportChannelId": "bug_report_channel_ID_disini",
   "feedbackChannelId": "feedback_channel_ID_disini",
@@ -85,15 +82,20 @@ API lainnya bisa didapatkan dari Link dibawah ini :
   * [TheCatAPI](https://thecatapi.com/)
   * [Google APIs](https://console.developers.google.com/apis/)
 
-Setelah `config.json` selesai diatur, aktifkan `Privileged Intents` di Discord [developer portal](https://discordapp.com/developers/applications/). Bisa ditemukan di bawah kolom "Bot" , dan ada dua opsi yang harus dinyalakan. Info mengenai Gateway Intents, selebihnya [disini](https://discordjs.guide/popular-topics/intents.html#the-intents-bit-field-wrapper).
+Setelah `config.json` selesai diatur, **WAJIB** aktifkan `Privileged Intents` di Discord [developer portal](https://discordapp.com/developers/applications/). Bisa ditemukan di bawah kolom "Bot" , dan ada dua opsi yang harus dinyalakan. Info mengenai Gateway Intents, selebihnya [disini](https://discordjs.guide/popular-topics/intents.html#the-intents-bit-field-wrapper).
 
 Setelah selesai, luncurkan `node app.js` atau `nodemon app.js`. Di Linux, bisa gunakan `start.sh` script.
 
-**Tidak disarankan** untuk hosting bot ini di Heroku. Dikarenakan ada batasan yang ditentukan oleh Heroku sehingga database SQL pada bot kamu bisa terhapus. Baca selebihnya [disini](https://devcenter.heroku.com/articles/sqlite3).
+**Tidak disarankan** untuk hosting bot ini di Heroku. Dikarenakan ada batasan yang ditentukan oleh Heroku sehingga database SQL pada bot kamu bisa terhapus tiap 24 jam. Baca selebihnya [disini](https://devcenter.heroku.com/articles/sqlite3).
 
 ### Emojis
 
-Ganti Emoji kamu dengan IDs di `emojis.json` util dengan emoji yang kamu punya agar emoji nya muncul.
+Ganti Emoji kamu dengan ID sesuai emojinya yang kamu punya di `emojis.json` agar emoji nya muncul. Atau bisa dimodifikasi sesukamu :v
+
+## To Do
+
+* Add "Indonesian" Language
+* Eksperimen command music wkwkwkwk
 
 ## Lisensi
 
@@ -102,4 +104,6 @@ Released under the [GNU GPL v3](https://www.gnu.org/licenses/gpl-3.0.en.html) li
 ## Kredit
 
 * **Lunareixx** - *Owner of this Bot*
+
+Special thanks to :
 * **Sebastian Battle** - *Base Code Repository* - [Github](https://github.com/sabattle/calypsobot)
