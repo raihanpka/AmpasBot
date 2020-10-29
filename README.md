@@ -35,7 +35,7 @@
   <a href="#kredit">Kredit</a>
 </p>
 
-## About
+## Tentang Dia
 
 
 Astesia, multitalent bot written in Javascript and using base code from [Github Open Source Code](https://github.com/sabattle/calypsobot)
