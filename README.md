@@ -94,5 +94,4 @@ Dirilis dibawah lisensi [GNU GPL v3](https://www.gnu.org/licenses/gpl-3.0.en.htm
 
 ## Credits
 
-Special thanks to :
-* **Sebastian Battle** - *Base Code* - [Github](https://github.com/sabattle/)
+[Github](https://github.com/sabattle/)
