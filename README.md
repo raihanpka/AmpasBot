@@ -2,7 +2,7 @@
   <br>
   <a href="https://github.com/lunareixx/AmpasBot"><img src="./data/images/SiAmpas_Title.png"></a>
   <br>
-  Astesia
+  Si Ampas
   <br>
 </h1>
 
