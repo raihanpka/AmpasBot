@@ -1,8 +1,8 @@
 module.exports = async (client) => {
   
   const activities = [
-    { name: 's!︱Am i a Human for u?', type: 'PLAYING' }, 
-    { name: 's!︱Love u all!! (♡ω♡ ) ~♪', type: 'PLAYING' }
+    { name: 'God Servant of ampas.exe server !', type: 'PLAYING' }, 
+    { name: 'Not a bot, but a robot', type: 'PLAYING' }
   ];
 
   // Update presence
