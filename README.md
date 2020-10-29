@@ -45,7 +45,7 @@ Si Ampas, God Servantnya Server ampas.exe !
 
 ## Installation
 
-** Buat yang mau coba host botnya sendiri **
+**Buat yang mau coba hosting botnya sendiri**
 
 Clone repo ini dulu
 ```
