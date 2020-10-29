@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-  <a href="https://github.com/lunareixx/AmpasBot"><img src="./data/images/SiAmpas_Title.png"></a>
+  <a href="https://github.com/lunareixx/AmpasBot"><img src="./data/images/SiAmpas_Titles.png"></a>
   <br>
   Si Ampas
   <br>
