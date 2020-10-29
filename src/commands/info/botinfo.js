@@ -26,7 +26,7 @@ module.exports = class BotInfoCommand extends Command {
     const embed = new MessageEmbed()
       .setTitle('Suky\'s Bot Information')
       .setDescription(oneLine`
-        Suky adalah Executive kita yang digunakan khusus untuk server tertentu. Bot ini menggunakan base code yang diambil dari '**[sini](https://github.com/sabattle/CalypsoBot)**'
+        Suky is a Multipurpose Bot bulit with **discord.js** . This bot uses base code from '**[here](https://github.com/sabattle/CalypsoBot)**'
       `)
       .addField('Prefix', `\`${prefix}\``, true)
       .addField('Client ID', `\`${message.client.user.id}\``, true)

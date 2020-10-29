@@ -17,8 +17,8 @@ module.exports = class GitHubCommand extends Command {
       .setTitle('GitHub Link')
       .setThumbnail('https://raw.githubusercontent.com/lunareixx/sukybot/master/data/images/Suky.png')
       .setDescription(oneLine`
-        Click [here](https://github.com/lunareixx/sukybot) to to visit my GitHub repository!
-        Please support me by starring ⭐ the repo, and feel free to comment about issues or suggestions!
+        Click [here](https://github.com/lunareixx/sukybot) to to visit GitHub repository!
+        Feel free to comment about issues or suggestions!
       `)
       .addField('Other Links',
         '**[Support Server](https://discord.gg/jVgKDC4)**'
