@@ -22,7 +22,7 @@
 </div>
 
 <p align="center">
-  <a href="#about">Tentang Dia</a>
+  <a href="#tentangdia">Tentang Dia</a>
   •
   <a href="#kemampuannya">Fitur</a>
   •
