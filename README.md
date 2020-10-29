@@ -38,7 +38,9 @@
 ## About
 
 
-Astesia, Bot Multitalenta ! Dia bisa ngelakuin banyak hal!
+Astesia, multitalent bot written in Javascript and using base code from [Github Open Source Code](https://github.com/sabattle/calypsobot)
+
+**FYI** : Astesia is name of character comes from a mobile game "[Arknights](https://www.arknights.global/)"
 
 
 ## Kemampuannya
