@@ -22,28 +22,28 @@
 </div>
 
 <p align="center">
-  <a href="#about">About</a>
+  <a href="#tentang">Tentang</a>
   •
-  <a href="#features">Features</a>
+  <a href="#kemampuannya">Fitur</a>
   •
-  <a href="#installation">Installation</a>
+  <a href="#instalasi">Instalasi</a>
   •
-  <a href="#setting-up">Setting Up</a>
+  <a href="#penyetelan">Penyetelan</a>
   •
-  <a href="#license">License</a>
+  <a href="#lisensi">Lisensi</a>
   •
-  <a href="#credits">Credits</a>
+  <a href="#kredit">Kredit</a>
 </p>
 
-## About
+## Tentang
 
 Si Ampas, God Servantnya Server ampas.exe !
 
-## Features
+## Kemampuannya
 
 **100+** commands 
 
-## Installation
+## Instalasi
 
 **Buat yang mau coba hosting botnya sendiri**
 
@@ -57,7 +57,7 @@ npm install
 ```
 Tentunya kamu butuh [nodejs](https://nodejs.org/en/) yang sudah diinstal. 
 
-## Setting Up
+## Penyetelan
 
 Setting dulu `config.json` nya, atau tinggal rename aja dari `config.json.contoh`. File nya harus terlihat seperti ini:
 ```
@@ -88,10 +88,10 @@ Setelah selesai, luncurkan `node app.js` atau `nodemon app.js`. Di Linux, bisa g
 
 Ganti Emoji kamu dengan ID sesuai emojinya yang kamu punya di `emojis.json` agar emoji nya muncul. Atau bisa dimodifikasi sesukamu :v
 
-## License
+## Lisensi
 
 Dirilis dibawah lisensi [GNU GPL v3](https://www.gnu.org/licenses/gpl-3.0.en.html)
 
-## Credits
+## Kredit
 
 [Github](https://github.com/sabattle/)
