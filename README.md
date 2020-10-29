@@ -22,30 +22,30 @@
 </div>
 
 <p align="center">
-  <a href="#tentang-dia">About</a>
+  <a href="#about">About</a>
   •
-  <a href="#kemampuannya">Features</a>
+  <a href="#features">Features</a>
   •
-  <a href="#instalasi">Installation</a>
+  <a href="#installation">Installation</a>
   •
-  <a href="#penyetelan">Setting Up</a>
+  <a href="#setting-up">Setting Up</a>
   •
-  <a href="#lisensi">License</a>
+  <a href="#license">License</a>
   •
   <a href="#credits">Credits</a>
 </p>
 
-## Tentang Dia
+## About
 
 Astesia, multitalent bot written in Javascript and using base code from [Github Open Source Code](https://github.com/sabattle/calypsobot)
 
 **FYI** : Astesia is name of character comes from a mobile game "[Arknights](https://www.arknights.global/)"
 
-## Kemampuannya
+## Features
 
 **100+** commands 
 
-## Instalasi
+## Installation
 
 Clone repo ini dulu
 ```
@@ -57,7 +57,7 @@ npm install
 ```
 Tentunya kamu butuh [nodejs](https://nodejs.org/en/) yang sudah diinstal. 
 
-## Penyetelan
+## Setting Up
 
 Setting dulu `config.json` nya, atau tinggal rename aja dari `config.json.contoh`. File nya harus terlihat seperti ini:
 ```
@@ -93,7 +93,7 @@ Ganti Emoji kamu dengan ID sesuai emojinya yang kamu punya di `emojis.json` agar
 * Add "Indonesian" Language
 * Eksperimen command music wkwkwkwk
 
-## Lisensi
+## License
 
 Released under the [GNU GPL v3](https://www.gnu.org/licenses/gpl-3.0.en.html) license.
 
