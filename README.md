@@ -94,4 +94,4 @@ Dirilis dibawah lisensi [GNU GPL v3](https://www.gnu.org/licenses/gpl-3.0.en.htm
 
 ## Kredit
 
-[Github](https://github.com/sabattle/)
+Fork from [Github](https://github.com/sabattle/calypsobot)
