@@ -31,8 +31,6 @@
   <a href="#penyetelan">Penyetelan</a>
   •
   <a href="#lisensi">Lisensi</a>
-  •
-  <a href="#kredit">Kredit</a>
 </p>
 
 ## Tentang
