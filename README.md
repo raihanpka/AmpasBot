@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-  <a href="https://github.com/lunareixx/AmpasBot"><img src="./data/images/SiAmpas_Title.png"></a>
+  <a href="https://github.com/raihanpka/AmpasBot"><img src="./data/images/SiAmpas_Title.png"></a>
   <br>
   Si Ampas
   <br>
@@ -15,7 +15,7 @@
     <img src="https://img.shields.io/badge/discord.js-v12.3.1-blue.svg?logo=npm" alt="shield.png">
   </a>
 
-  <a href="https://github.com/lunareixx/AmpasBot/blob/master/LICENSE">
+  <a href="https://github.com/raihanpka/AmpasBot/blob/master/LICENSE">
     <img src="https://img.shields.io/badge/license-GNU%20GPL%20v3-green" alt="shield.png">
   </a>
 
@@ -91,7 +91,3 @@ Ganti Emoji kamu dengan ID sesuai emojinya yang kamu punya di `emojis.json` agar
 ## Lisensi
 
 Dirilis dibawah lisensi [GNU GPL v3](https://www.gnu.org/licenses/gpl-3.0.en.html)
-
-## Kredit
-
-Fork from [Github](https://github.com/sabattle/calypsobot)
