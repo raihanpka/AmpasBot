@@ -6,7 +6,7 @@
   <br>
 </h1>
 
-<h3 align=center>God Servantnya Server ampas.exe</h3>
+<h3 align=center>Bot Discord Multiguna</h3>
 
 
 <div align=center>
